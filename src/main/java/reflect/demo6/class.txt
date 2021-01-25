@@ -1,0 +1,4 @@
+//className=reflect.demo6.Student
+//methodName=study
+className=reflect.demo6.Teacher
+methodName=teach
