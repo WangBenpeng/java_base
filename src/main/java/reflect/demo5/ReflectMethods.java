@@ -25,22 +25,29 @@ public class ReflectMethods
     }
     System.out.println("------------");
 
-    //调用方法
+    //获得method1方法
     Method method1 = clazz.getMethod("method1");
     Constructor<?> constructor = clazz.getConstructor();
+    //无参构造实例化类
     Object obj = constructor.newInstance();
+    //调用obj的method1方法
     method1.invoke(obj);
     System.out.println("------------");
 
-    //练习
+    //练习调用method2并传参
     Method method2 = clazz.getMethod("method2", String.class);
     method2.invoke(obj, "林青霞");
+    System.out.println("------------");
 
+    //练习调用method3并传参
     Method method3 = clazz.getMethod("method3", String.class, int.class);
     Object obj2 = method3.invoke(obj, "林青霞", 30);
     System.out.println(obj2);
+    System.out.println("------------");
 
+    //练习调用私有的function方法
     Method function = clazz.getDeclaredMethod("function");
+    //暴力反射
     function.setAccessible(true);
     function.invoke(obj);
   }

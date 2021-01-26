@@ -1,6 +1,5 @@
 package reflect.demo7;
 
-import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
@@ -11,6 +10,10 @@ public class ReflectService
     test2();
   }
 
+  /**
+   * 自己写的
+   * @throws Exception
+   */
   public  static void test2() throws Exception
   {
     UserController userController = new UserController();
@@ -32,6 +35,10 @@ public class ReflectService
     System.out.println(userController.getUserService());
   }
 
+  /**
+   * 马士兵老师的方法
+   * @throws Exception
+   */
   public static void test1() throws Exception
   {
     UserController userController = new UserController();

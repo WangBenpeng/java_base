@@ -30,8 +30,8 @@ public class ReflectField
     //无参构造实例化类
     Constructor<?> con = clazz.getConstructor();
     Object obj = con.newInstance();
-    //给address赋值
-    addressField.set(obj, "西安"); //给obj的成员变量addressField赋值
+    //给obj的成员变量addressField赋值
+    addressField.set(obj, "西安");
     System.out.println(obj);
     System.out.println("---------");
 
