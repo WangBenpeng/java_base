@@ -1,4 +1,4 @@
-package com.pengo.stack;
+package com.pengo.collection.stack;
 
 import java.util.Map;
 import java.util.Stack;
