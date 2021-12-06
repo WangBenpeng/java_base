@@ -17,7 +17,7 @@ public class FileDemo {
     }
 
     public static void testHomework() {
-        File file = new File("src/main/resources/file");
+        File file = new File("src/main/resources/io/file");
         File[] files = file.listFiles();
         printFile(files,0);
     }
@@ -82,7 +82,7 @@ public class FileDemo {
     }
 
     public static void test3() throws IOException {
-        File f1 = new File("src/main/resources/file/a.txt");
+        File f1 = new File("src/main/resources/io/file/a.txt");
         System.out.println("path---> "+f1.getAbsolutePath());
         if (f1.createNewFile()) {
             System.out.println("create file successfully");
