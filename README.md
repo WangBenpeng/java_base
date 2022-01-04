@@ -67,3 +67,4 @@ Java基础知识
       不可变集合：newList = Collections.unmodifiableList(list)--->虽然newList不可变，但改变list同样会引起newList的变化，所有要把list=null
 
       tips: List.of()创建的集合为immutable集合（不可变集合）
+2. [线程](src/main/java/com/pengo/thread/thread.MD)
