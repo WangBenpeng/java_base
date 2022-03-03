@@ -13,7 +13,7 @@ import java.io.PrintWriter;
  * @description:
  * @date 2022/2/25 22:26
  */
-@WebServlet(urlPatterns = "/")
+//@WebServlet(urlPatterns = "/")
 public class IndexServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

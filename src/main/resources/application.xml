@@ -1,0 +1,15 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--        https://www.springframework.org/schema/beans/spring-beans.xsd">-->
+
+<!--    <bean id="userService" class="com.pengo.spring.ioc.UserService">-->
+<!--        &lt;!&ndash;set注入&ndash;&gt;-->
+<!--        &lt;!&ndash;<property name="mailService" ref="mailService"/>&ndash;&gt;-->
+<!--        &lt;!&ndash;构造注入&ndash;&gt;-->
+<!--        <constructor-arg name="mailService" ref="mailService"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="mailService" class="com.pengo.spring.ioc.MailService"/>-->
+<!--</beans>-->
